@@ -15,7 +15,7 @@ class DesactivateCommand extends Command
     {
         $this
             ->setName('plugin:desactive')
-            ->setDescription('Gestion plugin')
+            ->setDescription('Désactive un ou plusieurs plugin')
             ->addArgument('desactive', InputArgument::OPTIONAL, '')
         ;
     }

@@ -15,7 +15,7 @@ class ActivateCommand extends Command
     {
         $this
             ->setName('plugin:active')
-            ->setDescription('Gestion plugin')
+            ->setDescription('activation d\'un plugin')
             ->addArgument('active', InputArgument::OPTIONAL, '')
         ;
     }

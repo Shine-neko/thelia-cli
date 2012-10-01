@@ -15,7 +15,7 @@ class GenerateCommand extends Command
     {
         $this
             ->setName('cache:generate')
-            ->setDescription('Generate cache')
+            ->setDescription('Régénère le cache')
         ;
     }
 

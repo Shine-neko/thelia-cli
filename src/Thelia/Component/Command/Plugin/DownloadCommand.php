@@ -15,7 +15,7 @@ class DownloadCommand extends Command
     {
         $this
             ->setName('plugin:download')
-            ->setDescription('Gestion plugin')
+            ->setDescription('Télécharge un ou plusieurs plugin')
         ;
     }
 

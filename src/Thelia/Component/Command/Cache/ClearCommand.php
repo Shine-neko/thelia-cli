@@ -15,7 +15,7 @@ class ClearCommand extends Command
     {
         $this
             ->setName('cache:clear')
-            ->setDescription('Clear cache')
+            ->setDescription('Vide cache')
         ;
     }
 

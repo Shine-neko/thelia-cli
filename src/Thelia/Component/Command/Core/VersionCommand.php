@@ -15,7 +15,7 @@ class VersionCommand extends Command
     {
         $this
             ->setName('core:version')
-            ->setDescription('Thelia core')
+            ->setDescription('Display Thelia version')
         ;
     }
 
